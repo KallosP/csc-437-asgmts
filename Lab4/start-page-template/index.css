@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #23222b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: skyblue;
+}
+
+.weblink {
+    background-color: #3c3a49;
+    padding: 0.55em;
+    border-radius: 0.5em;
+}
+
+li {
+    width: 5em; /* So the images don't take up the entire page. */
+}
+
+/* Write your own CSS below.  Don't modify anything above this comment. */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
+}
+
+.weather {
+    top: 1em;
+    right: 1em;
+    align-self: flex-end;
+    margin-top: 2em;
+    margin-right: 3em;
+    display: flex;
+    gap: 1em;
+}
+
+.weather img {
+    width: 2.25em;
+    height: 2.25em;
+    align-self: center;}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title-and-search {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-and-title {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    gap: 1em;
+    margin: 1em;
+}
+
+.search {
+    font-size: 1em;
+    background-color: #3c3a49;
+    border-style: none;
+    align-self: center;
+    border-radius: 0.5em;
+    width: 38em;
+    padding: 1em;
+}
+
+body > main > div > input {
+    align-self: center;
+}
+
+body > main > ul {
+    width: 40em;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    list-style-type: none;
+}
+
+body > main > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+body > main > ul > li > p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+    width: 5em;
+    text-align: center;
+}
