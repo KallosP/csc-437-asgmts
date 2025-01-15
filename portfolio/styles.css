@@ -1,0 +1,24 @@
+@import url('./theme-colors.css');
+
+body {
+    background-color: var(--bg-color);
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--header-bg-color);
+}
+
+h1, h2, h3 {
+    font-family: Lexend Exa, sans-serif;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+hr {
+    border-color: var(--accent-color);
+}

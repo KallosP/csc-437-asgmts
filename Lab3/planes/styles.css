@@ -1,0 +1,44 @@
+/* Fix: changed px to rem */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	padding: 1.25rem;
+	background-color: #87bdc3;
+	color: white;
+}
+
+/* Fix: contrast/link color changed to satisfy WebAIM guidelines */
+.banner a {
+	color: #282828;
+	text-decoration: none;
+	margin: 1.875rem 0;
+}
+
+.banner a:hover {
+	text-decoration: underline;
+}
+
+.plane-row {
+	display: flex;
+	margin-top: 0.75rem;
+	gap: 0.75rem;
+}
+
+.plane-row img {
+	height: 9.375rem;
+}
+
+h2 {
+    font-size: 1.17em;
+}
+
+footer {
+	font-size: 0.67em;
+	text-align: center;
+}
