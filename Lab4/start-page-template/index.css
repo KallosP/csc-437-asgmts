@@ -45,7 +45,8 @@ body {
 .weather img {
     width: 2.25em;
     height: 2.25em;
-    align-self: center;}
+    align-self: center;
+}
 
 main {
     display: flex;
